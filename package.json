@@ -18,13 +18,12 @@
   ],
   "main": "./lib/",
   "scripts": {
-    "test": "nodeunit --reporter=verbose test/*.js",
     "test": "./node_modules/karma/bin/karma start karma.conf.js",
     "coverage": "jscoverage lib && SDP_TRANSFORM_COV=1 nodeunit --reporter=lcov test",
     "coveralls": "npm run coverage | coveralls"
   },
   "dependencies": {
-      "sdp-transform": "1.5.*"
+    "sdp-transform": "2.3.0"
   },
   "devDependencies": {
     "browserify": "*",
@@ -41,8 +40,10 @@
   "bugs": {
     "url": "https://github.com/jitsi/sdp-simulcast/issues"
   },
-  "licenses": [{
-    "type": "Apache-2.0",
-    "url": "http://www.apache.org/licenses/LICENSE-2.0"
-  }]
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ]
 }
