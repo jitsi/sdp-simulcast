@@ -1,15 +1,12 @@
 {
-  "name": "sdp-simulcast",
+  "name": "@jitsi/sdp-simulcast",
   "description": "A simple npm module that enables Chrome's native simulcast",
-  "author": {
-    "name": "George Politis",
-    "email": "gp@jitsi.org"
-  },
+  "author": "",
   "version": "0.2.1",
   "stability": "unstable",
   "repository": {
     "type": "git",
-    "url": "jitsi/sdp-simulcast"
+    "url": "git+https://github.com/jitsi/sdp-simulcast.git"
   },
   "keywords": [
     "sdp",
@@ -40,10 +37,9 @@
   "bugs": {
     "url": "https://github.com/jitsi/sdp-simulcast/issues"
   },
-  "licenses": [
-    {
-      "type": "Apache-2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0"
-    }
-  ]
+  "homepage": "https://github.com/jitsi/sdp-simulcast#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "license": "Apache-2.0"
 }
