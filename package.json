@@ -20,7 +20,7 @@
     "coveralls": "npm run coverage | coveralls"
   },
   "dependencies": {
-    "sdp-transform": "2.3.0"
+    "sdp-transform": "2.14.0"
   },
   "devDependencies": {
     "browserify": "*",
