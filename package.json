@@ -2,7 +2,7 @@
   "name": "@jitsi/sdp-simulcast",
   "description": "A simple npm module that enables Chrome's native simulcast",
   "author": "",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "stability": "unstable",
   "repository": {
     "type": "git",
